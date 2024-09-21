@@ -4,7 +4,8 @@
 	"description": "<h1 align=\"center\"> API REST - CRUD </h1> <h4 align=\"center\"> Profundizando Sequelize </h4>",
 	"main": "index.js",
 	"scripts": {
-		"dev": "tsnd ./src/index"
+		"dev": "tsnd ./src/index", 
+		"sync": "ts-node ./src/db/db-sync.ts"
 	},
 	"keywords": [],
 	"author": "",
